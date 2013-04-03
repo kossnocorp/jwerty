@@ -463,4 +463,4 @@
         KEYS: _keys
     };
     
-}(this, (typeof module !== 'undefined' && module.exports ? module.exports : this)));
+}(global || this, (typeof module !== 'undefined' && module.exports ? module.exports : this)));
